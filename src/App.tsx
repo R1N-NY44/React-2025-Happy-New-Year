@@ -2,6 +2,7 @@ import React from 'react';
 import { Fireworks } from './components/Fireworks';
 import { FireworksButton } from './components/FireworksButton';
 import { MagicButton } from './components/MagicButton';
+import { GithubButton } from './components/GithubButton';
 import { CountdownDisplay } from './components/CountdownDisplay';
 import { NewYearMessage } from './components/NewYearMessage';
 import { useFireworks } from './hooks/useFireworks';
@@ -40,6 +41,7 @@ export default function App() {
 
       <MagicButton onClick={changeBackground} />
       <FireworksButton onClick={triggerFireworks} />
+      <GithubButton url="https://github.com/R1N-NY44" />
     </div>
   );
 }
